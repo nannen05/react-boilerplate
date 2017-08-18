@@ -4,10 +4,9 @@
 
 import React from 'react';
 import { render } from 'react-dom';
+import App from './components/App'
 
 render(
-  <div>
-  	<h3>Hello World</h3>
-  </div>,
+  <App/>,
   document.getElementById('root')
 );
